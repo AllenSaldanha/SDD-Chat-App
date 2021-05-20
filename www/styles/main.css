@@ -3,12 +3,20 @@ html, body {
     background-color: #efefef;
     font-family: sans-serif;
 }
+body{
+    flex:1;
+    background-image: url(../content/background.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
 .wrapper {
     width: 500px;
     height: 640px;
     padding: 5px;
     margin: 0 auto;
-    background-color: #ddd;
+    background-color: #02ba3a;
 }
 #loginWrapper {
     position: fixed;
